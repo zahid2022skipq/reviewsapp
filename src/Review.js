@@ -8,7 +8,7 @@ const Review = () => {
   return (
     <article className="review">
       <div className="img-container">
-        <img />
+        <img src={image} alt={name} className="person-img" />
       </div>
     </article>
   );
